@@ -8,7 +8,6 @@ API FATEC 1 SEM. 2024 - CALCULADORA CIENTÍFICA
 - <a href ="#requisitos-funcionais"> Requisitos Funcionais </a>
 - <a href ="#objetivos"> Objetivos </a>
 - <a href ="#requisitos-não-funcionais"> Requisitos Não Funcionais </a>
-- <a href ="#documentação-do-projeto"> Documentação do projeto </a>
 - <a href ="#backlog"> Backlog </a>
 - <a href ="#equipe"> Equipe </a>
 - <a href ="#legenda-de-priorização"> Legenda de priorização </a>
@@ -64,13 +63,6 @@ Operações adicionais:
 - VCS Git
 - Documentações
 
-### Documentação do projeto
-
-Para acessar a documentação do projeto, fique à vontade para acessar nosso site:
-
-[Documentação FATEC API](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024-DOCUMENTS)
-
-À ser feito.
 
 ## Backlog
 
@@ -79,9 +71,10 @@ Para acessar a documentação do projeto, fique à vontade para acessar nosso si
 |01|Criação do repositório GIT.|
 |01|Criação e organização dos itens Backlog da Sprint 1, e parte dos itens da Sprint 2 |
 |01|Criação e organização do Product Backlog|
-|01|Criação da documentação|
-|01| Criação da lógica da Calculadora Científica em um arquivo excel|
+|01| [Criação da documentação de melhores práticas para a metodologia escolhida](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/metodologia.md)|
+|01| [Criação da lógica da Calculadora Científica em um arquivo excel](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/FUN%C3%87%C3%95ES_DE_CALCULADORA_REV03.xlsx)|
 |01|Criação e organização do README.MD|
+|01| [Criação da documentação sobre o github e versionamento](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/PASSO%20A%20PASSO%20PARA%20TRABALHAR%20COM%20O%20GITHUB.pdf)
 |02|Inicío de implementação do produto em Visual G|
 
 
