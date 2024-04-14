@@ -66,17 +66,17 @@ Operações adicionais:
 
 ## Backlog
 
-| Sprint | Item do Backlog |
+| Sprint | Item do Backlog |Prioridade|User Stories|
 |--------|-----------------|
-|01|Criação do repositório GIT.|
-|01|Criação e organização dos itens Backlog da Sprint 1, e parte dos itens da Sprint 2 |
-|01|Criação e organização do Product Backlog|
-|01| [Criação da documentação de melhores práticas para a metodologia escolhida](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/metodologia.md)|
-|01| [Criação da lógica da Calculadora Científica em um arquivo excel](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/FUN%C3%87%C3%95ES_DE_CALCULADORA_REV03.xlsx)|
-|01|Criação e organização do README.MD|
-|01| [Criação da documentação sobre o github e versionamento](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/PASSO%20A%20PASSO%20PARA%20TRABALHAR%20COM%20O%20GITHUB.pdf)
-|02|Inicío de implementação do produto em Visual G|
-
+|01|Criação de menu|<td>🔴<td>|Como usuário, quero um menu totalmente funcional para navegar pelas funcionalidades|
+|01|Criação de funcionalidades avançadas |<td>🔴<td>|Como usuário, quero funcionalidades avançadas, como conversão binária em hexadecimal, decimal e octal, para realizar operações complexas|
+|01|Criação do Readme|<td>🔴<td>|Como usuário, quero uma documentação atualizada detalhando todas as funcionalidades e instruções de uso|
+|01| [Criação de funcionalidades avançadas|<td>🟠<td>|Como usuário, quero funcionalidades mais complexas, como cálculo fatorial, resolução de equações do segundo grau, cálculo de juros simples e compostos, para realizar operações matemáticas avançadas.|
+|01|Criação de funcionalidades de média complexidade|<td>🟠<td>|Como usuário, quero atualizações semanais no planejamento do grupo para manter o projeto organizado e atualizado|
+|01|Criação de funcionalidades de média complexidade|<td>🟠<td>|Como usuário, quero atualizações semanais no planejamento do grupo para manter o projeto organizado e atualizado|Como usuário, quero atualizações semanais no planejamento do grupo para manter o projeto organizado e atualizado|
+|01| [Criação da documentação sobre o github e versionamento](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/PASSO%20A%20PASSO%20PARA%20TRABALHAR%20COM%20O%20GITHUB.pdf)|<td>🟡<td>|Como usuário, quero funcionalidades simples, como cálculos matemáticos básicos (soma, subtração, divisão, multiplicação) e concatenação de strings, para realizar operações básicas no sistema|
+|02|Inicío de implementação do produto em Visual G|<td>🔴<td>|
+|01| [Link da lógica implementada no Excel-](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/FUN%C3%87%C3%95ES_DE_CALCULADORA_REV03.xlsx)|<td>🔴<td>|Como usuário quero uma tabela no excel onde possa experimentar as lógicas na prática|
 
 #### Prazos
 
@@ -100,7 +100,7 @@ Ao abrir os cards do kanbam será possível ver a priorização no lado direito 
     </tr>
     <tr>
         <td>Tarefas que entregarão maior valor de negócio </td>
-        <td>🔴prioridade-máxima</td>
+        <td>🔴prioridade-alta</td>
     </tr>
      <tr>
         <td>Tarefas que entregarão valor de negócio médio </td>
