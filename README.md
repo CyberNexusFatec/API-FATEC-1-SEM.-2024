@@ -63,34 +63,18 @@ Operações adicionais:
 - VCS Git
 - Documentações
 
-
 ## Backlog
 
 | Sprint | Item do Backlog | Prioridade | User Stories |
 |--------|-----------------|------------|--------------|
-
 | 01     | Criação de menu |    🔴      | Como usuário, quero um menu totalmente funcional para navegar pelas funcionalidades |
 | 01     | Criação de funcionalidades avançadas |    🔴      | Como usuário, quero funcionalidades avançadas, como conversão binária em hexadecimal, decimal e octal, para realizar operações complexas |
-|01| [Criação da documentação de melhores práticas para a metodologia escolhida](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/metodologia.md)|🟠|Como usuário, quero ter acesso a documentação de melhores práticas para a metodologia escolhida para facilitar o entendimento e a adesão aos processos do projeto.|
 | 01     | Criação do Readme |    🔴      | Como usuário, quero uma documentação atualizada detalhando todas as funcionalidades e instruções de uso |
 | 01     | [Criação de funcionalidades avançadas](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/FUN%C3%87%C3%95ES_DE_CALCULADORA_REV03.xlsx) |    🟠      | Como usuário, quero funcionalidades mais complexas, como cálculo fatorial, resolução de equações do segundo grau, cálculo de juros simples e compostos, para realizar operações matemáticas avançadas. |
 | 01     | Criação de funcionalidades de média complexidade |    🟠      | Como usuário, quero atualizações semanais no planejamento do grupo para manter o projeto organizado e atualizado |
-| 01     | Criação de funcionalidades de média complexidade |    🟠      | Como usuário, quero atualizações semanais no planejamento do grupo para manter o projeto organizado e atualizado |
 | 01     | [Criação da documentação sobre o github e versionamento](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/PASSO%20A%20PASSO%20PARA%20TRABALHAR%20COM%20O%20GITHUB.pdf) |    🟡      | Como usuário, quero funcionalidades simples, como cálculos matemáticos básicos (soma, subtração, divisão, multiplicação) e concatenação de strings, para realizar operações básicas no sistema |
-|01| [Documentação de melhores práticas para a metodologia escolhida](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/metodologia.md)|🟠|Como membro da equipe, quero ter acesso às especificações de como trabalhar com o método Agile para entender melhor as práticas e processos a serem seguidos durante o desenvolvimento do projeto.|
 | 01     | [Link da lógica implementada no Excel](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/FUN%C3%87%C3%95ES_DE_CALCULADORA_REV03.xlsx) |    🔴      | Como usuário quero uma tabela no excel onde possa experimentar as lógicas na prática |
 |02| Inicío de implementação do produto em Visual G|🔴|Como usuário, quero que a implementação do produto comece no Visual G para começar a visualizar e interagir com as funcionalidades do sistema.|
-=======
-| 01     | Criação de menu | 🔴        | Como usuário, quero um menu totalmente funcional para navegar pelas funcionalidades |
-| 01     | Criação de funcionalidades avançadas | 🔴 | Como usuário, quero funcionalidades avançadas, como conversão binária em hexadecimal, decimal e octal, para realizar operações complexas |
-| 01     | Criação do Readme | 🔴      | Como usuário, quero uma documentação atualizada detalhando todas as funcionalidades e instruções de uso |
-| 01     | Criação de funcionalidades avançadas | 🟠 | Como usuário, quero funcionalidades mais complexas, como cálculo fatorial, resolução de equações do segundo grau, cálculo de juros simples e compostos, para realizar operações matemáticas avançadas. |
-| 01     | Criação de funcionalidades de média complexidade | 🟠 | Como usuário, quero atualizações semanais no planejamento do grupo para manter o projeto organizado e atualizado |
-| 01     | Criação de funcionalidades de média complexidade | 🟠 | Como usuário, quero atualizações semanais no planejamento do grupo para manter o projeto organizado e atualizado |
-| 01     | [Criação da documentação sobre o github e versionamento](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/PASSO%20A%20PASSO%20PARA%20TRABALHAR%20COM%20O%20GITHUB.pdf) | 🟡 | Controle de do que foi realizado para que o usuário saiba o que está sendo executado |
-| 01     | Criação de funcionalidade básica | 🟡 | Como usuário, quero funcionalidades simples, como cálculos matemáticos básicos (soma, subtração, divisão, multiplicação) e concatenação de strings, para realizar operações básicas no sistema |
-| 02     | Início de implementação do produto em Visual G | 🔴 | Como usuário, quero ver essa implementação no Visualg |
-| 01     | [Link da lógica implementada no Excel](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/FUN%C3%87%C3%95ES_DE_CALCULADORA_REV03.xlsx) | 🔴 | Como usuário, quero uma tabela no excel onde possa experimentar as lógicas na prática |
 
 
 
