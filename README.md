@@ -81,9 +81,9 @@ Operações adicionais:
 
 #### Prazos
 
-| Sprints | Início | Fim |
-| ------- | ------ | --- |
-| 1ª sprint | 25/03 | 14/04 |
+| Sprints | Início | Fim | Status |
+| ------- | ------ | --- |:---:|
+| 1ª sprint | 25/03 | 14/04 | ✅ |
 | 2ª sprint | 15/04 | 05/05 |
 | 3ª sprint | 06/05 | 26/05 |
 | 4ª sprint | 27/05 | 16/05 |
