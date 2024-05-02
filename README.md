@@ -76,7 +76,8 @@ Operações adicionais:
 | 01     | [Criação da documentação sobre o github e versionamento](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/PASSO%20A%20PASSO%20PARA%20TRABALHAR%20COM%20O%20GITHUB.pdf) |    🟡      | Como usuário, quero funcionalidades simples, como cálculos matemáticos básicos (soma, subtração, divisão, multiplicação) e concatenação de strings, para realizar operações básicas no sistema |
 | 01     | [Link da lógica implementada no Excel](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/FUN%C3%87%C3%95ES_DE_CALCULADORA_REV03.xlsx) |    🔴      | Como usuário quero uma tabela no excel onde possa experimentar as lógicas na prática |
 |02| Inicío de implementação do produto em Visual G|🔴|Como usuário, quero que a implementação do produto comece no Visual G para começar a visualizar e interagir com as funcionalidades do sistema.|
-|02| [Menu para as operações disponíveis da calculadora científica](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/TiagoSantos-binario-para-octal/MENUNEXUSI.ALG) | 🔴  |   Como usuário quero um menu onde possa escolher quais operações posso efetuar, se posso sair ou voltar em cada operação a qualquer momento |
+|02| [Menu para as operações disponíveis da calculadora científica](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/MENUNEXUSI.ALG)) | 🔴  |   Como usuário quero um menu onde possa escolher quais operações posso efetuar, se posso sair ou voltar em cada operação a qualquer momento |
+|02| [Função de conversão octal para binário](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/OCTALBINARIO.ALG)) | 🔴  |   Como usuário quero digitar um número octal e ver ele convertido em binário e caso queira sair ou voltar na mesma operação a qualquer momento |
 
 
 #### Prazos
