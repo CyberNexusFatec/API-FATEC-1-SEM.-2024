@@ -1,27 +1,34 @@
-Algoritmo "Equa��o do Segunda Grau"
+Algoritmo "Equação do Segunda Grau"
 // 
 //  
-// Descri��o   : Aqui voc� descreve o que o programa faz! (fun��o)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 28/04/2024
+// Descrição   : Pseudocódigo do calculo Equação do 2º grau, utilizando o método de Bhaskara.
+//A equação do 2º grau é caracterizada por possuir uma incógnita de grau 2. Para resolver esse
+//tipo de equação, é importante conhecer a fórmula de Bhaskara. A equação do 2º grau é
+//representada por: ax²+bx+c=0.
+
+// Autor(a)    : João Pedro Ventura
+// Data atual  : 18/04/2024
 Var
-// Se��o de Declara��es das vari�veis 
+// Seção de Declarações das variáveis 
 a, b, c, delta, raiz, numero, raizAux, i, x : inteiro
 x1, x2: real
 
 
 Inicio
-// Se��o de Comandos, procedimento, fun��es, operadores, etc...
+// Seção de Comandos, procedimento, funções, operadores, etc...
 
 
+escreval(" EQUAÇÃO DO 2º GRAU ")
+escreval("---------------------")
 escreva("Digite o valor de a: ")
 leia(a)
-
+escreval("---------------------")
 escreva("Digite o valor de b: ")
 leia(b)
-
+escreval("---------------------")
 escreva("Digite o valor de c: ")
 leia(c)
+escreval("---------------------")
 
 // RAIZ QUADRADA
 raiz <- 2
@@ -33,14 +40,14 @@ para i de 1 ate a faca
      fimpara
 
      se raizAux = a entao
-          escreval("A raiz ", raiz, " de ", a, " �: ", i)
+          escreval("A raiz ", raiz, " de ", a, " é: ", i)
           interrompa
      senao
           raizAux <- 1
      fimse
 fimpara
 se raizAux <> a entao
-   escreval("O n�mero ", a, " n�o possui raiz exata ")
+   escreval("O número ", a, " não possui raiz exata ")
    interrompa
 fimse
 //FIM RAIZ QUADRADA
