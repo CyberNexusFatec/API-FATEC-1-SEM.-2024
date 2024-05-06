@@ -78,14 +78,22 @@ Operações adicionais:
 |02| Inicío de implementação do produto em Visual G|🔴|Como usuário, quero que a implementação do produto comece no Visual G para começar a visualizar e interagir com as funcionalidades do sistema.|
 |02| [Menu para as operações disponíveis da calculadora científica](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/MENUNEXUSI.ALG)) | 🔴  |   Como usuário quero um menu onde possa escolher quais operações posso efetuar, se posso sair ou voltar em cada operação a qualquer momento |
 |02| [Função de conversão octal para binário](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/OCTALBINARIO.ALG)) | 🔴  |   Como usuário quero digitar um número octal e ver ele convertido em binário e caso queira sair ou voltar na mesma operação a qualquer momento |
-
+|02| Função de conversão B10 X B2 |🔴| Como usuário quero digitar um número decimal e ver ele convertido em binário  e caso queira sair ou voltar na mesma operação a qualquer momento |
+|02| Função de conversão  B2x B10 |🔴| Como usuário quero digitar um número binário e ver ele convertido em   decimal e caso queira sair ou voltar na mesma operação a qualquer momento |
+|02| Função de conversão  B2x B8 |🔴| Como usuário quero digitar um número binário e ver ele convertido em  octal e caso queira sair ou voltar na mesma operação a qualquer momento |
+|02| Função de conversão  B8 x B2 |🔴| Como usuário quero digitar um número octal  e ver ele convertido em  binário e caso queira sair ou voltar na mesma operação a qualquer momento |
+|02| Função de conversão  B2 x B16 |🔴| Como usuário quero digitar um número binário  e ver ele convertido em  hexadecimal e caso queira sair ou voltar na mesma operação a qualquer momento |
+|02| Função de conversão  B16 x B2 |🔴| Como usuário quero digitar um número hexadecimal  e ver ele convertido em  binário e caso queira sair ou voltar na mesma operação a qualquer momento |
+|03| Conversão de funções dos códigos de Portugol para TypeScript |🔴| Como desenvolvedor, desejo converter as funções dos códigos escritos em Portugol para TypeScript, a fim de migrar o código para um ambiente de desenvolvimento mais moderno e compatível com a stack tecnológica atual. |
+|03| Criação de documentação a respeito da linguagem TypeScript  |🟡| Como membro da equipe de desenvolvimento, desejo criar documentação abrangente sobre a linguagem TypeScript para facilitar o entendimento e o uso dessa tecnologia para o projeto atual. |
+|03| Documentar todas as alterações feitas durante a conversão, explicando os motivos das mudanças e como elas afetam o comportamento do programa.  |  🟠  | Como desenvolvedor, desejo corrigir possíveis erros de execução no programa escrito em Portugol, convertendo-o para TypeScript, garantindo assim que o código seja funcional e eficiente. |
 
 #### Prazos
 
 | Sprints | Início | Fim | Status |
 | ------- | ------ | --- |:---:|
 | 1ª sprint | 25/03 | 14/04 | ✅ |
-| 2ª sprint | 15/04 | 05/05 |
+| 2ª sprint | 15/04 | 05/05 | ✅ |
 | 3ª sprint | 06/05 | 26/05 |
 | 4ª sprint | 27/05 | 16/05 |
 | Feira de Soluções | 27/06 |
