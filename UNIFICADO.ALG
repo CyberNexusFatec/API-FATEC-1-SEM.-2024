@@ -7,11 +7,15 @@ Algoritmo "MenuNexusI"
 Var
 
 // Seção de Declarações das variáveis
-valorDec,total, numero, taxa, juros: real
+
+valordec, total, numero, taxa, juros, valoroct: real
 binario, posDec,numhex, numbin, conversaohex, stringhex ,letra: caracter
-string1, string2, resultado: caracter
+string1, string2, resultado,binarioInvertido: caracter
 valorEntrada, guardaValor, opcao, conthex, vezes, sairhex, temp: inteiro
-octal, decimal, i, j, tamOctal, cont, res, resto: inteiro
+octal, decimal, i, j, tamOctal, cont, res, resto,contador,tamBin: inteiro
+n, c, fat: inteiro
+a, b, delta, raiz, raizAux, x : inteiro
+x1, x2: real
 
 
 
@@ -141,8 +145,96 @@ repita
 
     caso 5
       escreval ("---Fatorial---")
+
+ REPITA
+fat <- 1
+
+escreval("Digite um valor inteiro: ")
+leia(n)
+para c de n ate 1 passo -1 faca
+     fat <- fat * c
+fimpara
+escreval("Fatorial de ", n, " é igual a:", fat)
+
+  escreval("Deseja sair?(S ou N - caso N.)")
+        leia (letra)
+        se letra = "S" entao
+          interrompa
+         fimse
+         se letra = "s" entao
+           interrompa
+         fimse
+         ate falso
+      
+      
+      
+      
     caso 6
       escreval ("---Função de 2º grau---")
+
+repita
+escreval(" EQUAÇÃO DO 2º GRAU ")
+escreval("---------------------")
+escreva("Digite o valor de a: ")
+leia(a)
+escreval("---------------------")
+escreva("Digite o valor de b: ")
+leia(b)
+escreval("---------------------")
+escreva("Digite o valor de c: ")
+leia(c)
+escreval("---------------------")
+// RAIZ QUADRADA
+raiz <- 2
+raizAux <- 1
+
+para i de 1 ate a faca
+     para x de 1 ate raiz faca
+       raizAux <- raizAux*i
+     fimpara
+
+     se raizAux = a entao
+          escreval("A raiz ", raiz, " de ", a, " é: ", i)
+          interrompa
+     senao
+          raizAux <- 1
+     fimse
+fimpara
+se raizAux <> a entao
+   escreval("O número ", a, " não possui raiz exata ")
+   interrompa
+fimse
+//FIM RAIZ QUADRADA
+
+delta <- (-b * -b) - (4* a*c)
+
+x1 <- ((-b + raiz) / (2*a))
+
+x2 <- (-b - raiz) / (2*a)
+
+escreval
+escreval("O valor de delta: ", delta)
+escreval
+escreval("O valor de x1: ", x1)
+escreval
+escreval("O valor de x2: ", x2)
+escreval("Deseja voltar ao menu anterior ?(S ou N - caso N)")
+        leia (letra)
+        se letra = "S" entao
+          interrompa
+         fimse
+         se letra = "s" entao
+           interrompa
+         fimse
+
+   ate falso
+
+
+      
+      
+      
+      
+      
       caso 7
       repita
       escreval ("---Conversão de base numérica B8 X B2---")
@@ -201,9 +293,115 @@ fimenquanto
    ate falso
    
     caso 8
+      REPITA
       escreval ("---Conversão de base numérica B2 X B8---")
+      
+
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+   //Decimal = Binario * 2^Posição do binario
+   //após isso soma tudo
+
+
+
+   //binario para decimal
+    repita
+   escreva("Digite o número binário ")
+   leia(binario)
+
+
+   i := 0
+   j := 1
+   tamBin <- compr(binario)
+   cont <- 1
+
+   repita
+      binarioInvertido <- copia(binario,(tamBin - i),1 )
+      se binarioInvertido > "1" entao
+         escreva("Valor binario invalido")
+         interrompa
+      fimse
+
+      se binarioInvertido = "1" entao
+         decimal <- decimal + cont
+
+      fimse
+      cont <- cont  * 2
+
+      i <- i + 1
+
+   ate i >= tamBin
+
+   //decimal para octal
+
+   valordec <- decimal
+
+   se valordec <= 7 entao
+      valoroct <-  valordec
+
+   senao
+      enquanto valordec >= 8 faca
+
+         res <- valordec % 8
+         valordec <- valordec / 8
+         valoroct <- valoroct + res  * j
+         j <- j * 10
+
+      fimenquanto
+      valordec <- valordec % 8;
+      valoroct <- valoroct + valordec  * j
+
+   fimse
+
+   // mostra resultado de tudo
+
+   Escreval ("O valor em octal será de: " , valoroct , " !!")
+
+       escreval("Deseja sair?(S ou N - caso N)")
+        leia (letra)
+        se letra = "S" entao
+          interrompa
+         fimse
+         se letra = "s" entao
+           interrompa
+         fimse
+         ate falso
+
+
+      
+      
+      
      caso 9
+
+     repita
       escreval ("---Conversão de base numérica B10 X B2---")
+      escreval ("Qual valor deseja converter em binario")
+      leia(valorEntrada)
+       guardaValor <- valorEntrada
+       resultado <- ""
+       enquanto valorEntrada > 0 faca
+       se (valorEntrada mod 2) = 0 entao
+       resultado <- "0" + resultado
+    senao
+	resultado <- "1" + resultado
+    fimse
+    valorEntrada <- valorEntrada div 2
+ fimenquanto
+ escreval (guardaValor, " = ", resultado)
+escreval("Deseja sair?(S ou N - caso N)")
+        leia (letra)
+        se letra = "S" entao
+          interrompa
+         fimse
+         se letra = "s" entao
+           interrompa
+         fimse
+         ate falso
+
+         
+    caso 10
+      repita
+      escreval ("---Conversão de base numérica B2 X B10---")
       escreval ("Qual valor deseja converter em binario")
       leia(valorEntrada)
        guardaValor <- valorEntrada
@@ -225,8 +423,9 @@ escreval("Deseja sair?(S ou N - caso N.)")
          se letra = "s" entao
            interrompa
          fimse
-    caso 10
-      escreval ("---Conversão de base numérica B2 X B10---")
+         ate falso
+         
+         
     caso 11
       escreval ("---Conversão de base numérica B16 X B2---")
              limpatela
@@ -405,6 +604,100 @@ escreval("Deseja sair?(S ou N - caso N.)")
                ate (sairhex)= 2
     caso 12
       escreval ("---Conversão de base numérica B2 X B16---")
+      
+      
+
+
+
+   Escreval ("==============================================")
+   Escreval ("CALCULO DE CONVERSÃO DE BINÁRIO EM HEXADECIMAL")
+   Escreval ("==============================================")
+   Escreval ("QUANTOS ALGARISMOS VOCÊ QUER CONVERTER?: ")
+   leia (vezes)
+
+   se vezes <= 0 então
+      repita
+
+         Escreval ("QUANTOS ALGARISMOS VOCÊ QUER CONVERTER?:")
+         leia (vezes)
+   se vezes <= 0 então
+            Escreval ("VOCÊ DEVE INSERIR UM NUMERO MAIOR QUE ZERO!")
+   //senao se vezes > 16 então
+            //Escreval ("A QUANTIDADE DE ALGARISMOS NÃO PODE SER MAIOR QUE 16!")
+        fimse
+      até (vezes > 0) e (vezes < 16)
+   fimse
+
+   se vezes >1 entao
+    se vezes > 16 entao
+    fimse
+   fimse
+
+
+      repita
+         contador <- contador + 1
+         Escreval ("ALGARISMO ", contador, ":")
+         leia (numbin)
+
+
+
+         // Conversão de binário para hexadecimal
+         escolha numbin
+         caso "0000"
+            conversaohex := "0"
+         caso "0001"
+            conversaohex := "1"
+         caso "0010"
+            conversaohex := "2"
+         caso "0011"
+            conversaohex := "3"
+         caso "0100"
+            conversaohex := "4"
+         caso "0101"
+            conversaohex := "5"
+         caso "0110"
+            conversaohex := "6"
+         caso "0111"
+            conversaohex := "7"
+         caso "1000"
+            conversaohex := "8"
+         caso "1001"
+            conversaohex := "9"
+         caso "1010"
+            conversaohex := "A"
+         caso "1011"
+            conversaohex := "B"
+         caso "1100"
+            conversaohex := "C"
+         caso "1101"
+            conversaohex := "D"
+         caso "1110"
+            conversaohex := "E"
+         caso "1111"
+            conversaohex := "F"
+         outrocaso
+            escreval ("O ALGARISMO NÃO É BINÁRIO")
+         Fimescolha
+         resultado := resultado + conversaohex  // Acumula os resultados
+      até contador = vezes
+
+      Escreval ("O valor em Hexadecimal será ", resultado )
+      escreval("Deseja sair?(S ou N - caso N, poderá realizar uma nova concatenação)")
+        leia (letra)
+        se letra = "S" entao
+          interrompa
+         fimse
+         se letra = "s" entao
+           interrompa
+         fimse
+         ate falso
+
+
+
+
+      
+      
+      
     caso 13
      limpatela
       escreval("----- Você está na operação de CONCATENAÇÃO -----")
