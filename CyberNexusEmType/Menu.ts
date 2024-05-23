@@ -33,34 +33,11 @@ do {
     switch (opcao) {
         case 1:
             console.log("----- Você está na operação de SOMA -----");
-            total = 0;
-            numero = parseFloat(readlineSync.question("Digite o número para soma: "));
-            total += numero;
-            console.log("Total: ", total);
-
-            do {
-                numero = parseFloat(readlineSync.question("Digite o próximo número para soma: "));
-                total += numero;
-                console.log("Total: ", total);
-                letra = readlineSync.question("Deseja sair? (S ou N): ").toUpperCase();
-            } while (letra !== "S");
 
             break;
 
         case 2:
             console.log("----- Você está na operação de SUBTRAÇÃO -----");
-            total = 0;
-            numero = parseFloat(readlineSync.question("Digite UM número para iniciar: "));
-            total += numero;
-            console.log("Total: ", total);
-
-            do {
-                numero = parseFloat(readlineSync.question("Digite o próximo número para subtrair: "));
-                total -= numero;
-                console.log("Total: ", total);
-                letra = readlineSync.question("Deseja sair? (S ou N): ").toUpperCase();
-            } while (letra !== "S");
-
             break;
 
         case 3:
