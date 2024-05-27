@@ -8,7 +8,8 @@ API FATEC 1 SEM. 2024 - CALCULADORA CIENTÍFICA
 - <a href ="#requisitos-funcionais"> Requisitos Funcionais </a>
 - <a href ="#objetivos"> Objetivos </a>
 - <a href ="#requisitos-não-funcionais"> Requisitos Não Funcionais </a>
-- <a href ="#backlog"> Backlog </a>
+- <a href ="#backlog do produto"> Backlog </a>
+- <a href ="#backlog por sprint"> Backlog por Sprint </a>
 - <a href ="#equipe"> Equipe </a>
 - <a href ="#legenda-de-priorização"> Legenda de priorização </a>
 - <a href ="#prazos"> Prazos </a>
@@ -65,37 +66,11 @@ Operações adicionais:
 
 ##  [Backlog do produto](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/iproduto.jpeg)
 - [Parte ii](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/ii.produto.jpeg)
-- [Parte iii](]https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/iii.jpeg)
+- [Parte iii](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/iii.jpeg)
 
 ## [Backlog por Sprint](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/backlog%20por%20sprint/i.jpeg)
 - [Parte ii](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/backlog%20por%20sprint/ii.jpeg)
 
-
-## Backlog por sprint
-
-
-| Sprint | Item do Backlog | Prioridade | User Stories |
-|--------|-----------------|------------|--------------|
-| 01     | Criação de menu |    🔴      | Como usuário, quero um menu totalmente funcional para navegar pelas funcionalidades |
-| 01     | Criação de funcionalidades avançadas |    🔴      | Como usuário, quero funcionalidades avançadas, como conversão binária em hexadecimal, decimal e octal, para realizar operações complexas |
-| 01     | Criação do Readme |    🔴      | Como usuário, quero uma documentação atualizada detalhando todas as funcionalidades e instruções de uso |
-| 01     | [Criação de funcionalidades avançadas](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/FUN%C3%87%C3%95ES_DE_CALCULADORA_REV03.xlsx) |    🟠      | Como usuário, quero funcionalidades mais complexas, como cálculo fatorial, resolução de equações do segundo grau, cálculo de juros simples e compostos, para realizar operações matemáticas avançadas. |
-|01| [Criação da documentação de melhores práticas para a metodologia escolhida](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/metodologia.md)|🟠|Como usuário, quero ter acesso a documentação de melhores práticas para a metodologia escolhida para facilitar o entendimento e a adesão aos processos do projeto.|
-| 01     | Criação de funcionalidades de média complexidade |    🟠      | Como usuário, quero atualizações semanais no planejamento do grupo para manter o projeto organizado e atualizado |
-| 01     | [Criação da documentação sobre o github e versionamento](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/PASSO%20A%20PASSO%20PARA%20TRABALHAR%20COM%20O%20GITHUB.pdf) |    🟡      | Como usuário, quero funcionalidades simples, como cálculos matemáticos básicos (soma, subtração, divisão, multiplicação) e concatenação de strings, para realizar operações básicas no sistema |
-| 01     | [Link da lógica implementada no Excel](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/FUN%C3%87%C3%95ES_DE_CALCULADORA_REV03.xlsx) |    🔴      | Como usuário quero uma tabela no excel onde possa experimentar as lógicas na prática |
-|02| Inicío de implementação do produto em Visual G|🔴|Como usuário, quero que a implementação do produto comece no Visual G para começar a visualizar e interagir com as funcionalidades do sistema.|
-|02| [Menu para as operações disponíveis da calculadora científica](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/MENUNEXUSI.ALG)) | 🔴  |   Como usuário quero um menu onde possa escolher quais operações posso efetuar, se posso sair ou voltar em cada operação a qualquer momento |
-|02| [Função de conversão octal para binário](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/OCTALBINARIO.ALG)) | 🔴  |   Como usuário quero digitar um número octal e ver ele convertido em binário e caso queira sair ou voltar na mesma operação a qualquer momento |
-|02| Função de conversão B10 X B2 |🔴| Como usuário quero digitar um número decimal e ver ele convertido em binário  e caso queira sair ou voltar na mesma operação a qualquer momento |
-|02| Função de conversão  B2x B10 |🔴| Como usuário quero digitar um número binário e ver ele convertido em   decimal e caso queira sair ou voltar na mesma operação a qualquer momento |
-|02| Função de conversão  B2x B8 |🔴| Como usuário quero digitar um número binário e ver ele convertido em  octal e caso queira sair ou voltar na mesma operação a qualquer momento |
-|02| Função de conversão  B8 x B2 |🔴| Como usuário quero digitar um número octal  e ver ele convertido em  binário e caso queira sair ou voltar na mesma operação a qualquer momento |
-|02| Função de conversão  B2 x B16 |🔴| Como usuário quero digitar um número binário  e ver ele convertido em  hexadecimal e caso queira sair ou voltar na mesma operação a qualquer momento |
-|02| Função de conversão  B16 x B2 |🔴| Como usuário quero digitar um número hexadecimal  e ver ele convertido em  binário e caso queira sair ou voltar na mesma operação a qualquer momento |
-|03| Conversão de funções dos códigos de Portugol para TypeScript |🔴| Como desenvolvedor, desejo converter as funções dos códigos escritos em Portugol para TypeScript, a fim de migrar o código para um ambiente de desenvolvimento mais moderno e compatível com a stack tecnológica atual. |
-|03| Criação de documentação a respeito da linguagem TypeScript  |🟡| Como membro da equipe de desenvolvimento, desejo criar documentação abrangente sobre a linguagem TypeScript para facilitar o entendimento e o uso dessa tecnologia para o projeto atual. |
-|03| Documentar todas as alterações feitas durante a conversão, explicando os motivos das mudanças e como elas afetam o comportamento do programa.  |  🟠  | Como desenvolvedor, desejo corrigir possíveis erros de execução no programa escrito em Portugol, convertendo-o para TypeScript, garantindo assim que o código seja funcional e eficiente. |
 
 #### Prazos
 
