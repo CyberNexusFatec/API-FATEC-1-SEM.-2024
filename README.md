@@ -63,7 +63,16 @@ Operações adicionais:
 - VCS Git
 - Documentações
 
-## Backlog
+##  [Backlog do produto](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/iproduto.jpeg)
+- [Parte ii](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/ii.produto.jpeg)
+- [Parte iii](]https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/iii.jpeg)
+
+## [Backlog por Sprint](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/backlog%20por%20sprint/i.jpeg)
+- [Parte ii](https://github.com/CyberNexusFatec/API-FATEC-1-SEM.-2024/blob/main/backlog%20por%20sprint/ii.jpeg)
+
+
+## Backlog por sprint
+
 
 | Sprint | Item do Backlog | Prioridade | User Stories |
 |--------|-----------------|------------|--------------|
