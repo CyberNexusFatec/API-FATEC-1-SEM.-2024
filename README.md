@@ -80,7 +80,7 @@ Operações adicionais:
 | 2ª sprint | 15/04 | 05/05 | ✅ |
 | 3ª sprint | 06/05 | 26/05 | ✅ |
 | 4ª sprint | 27/05 | 16/06 | ✅ |
-| Feira de Soluções | 27/06 | ✅ |
+| Feira de Soluções | 27/06 | 27/06 | ✅ |
 
 
 Ao abrir os cards do kanbam será possível ver a priorização no lado direito como um dos atributos dos cards, com as seguintes nomenclaturas.
